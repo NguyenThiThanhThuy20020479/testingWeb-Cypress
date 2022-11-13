@@ -1,0 +1,82 @@
+{
+  "admins": [
+    {
+      "id": "1",
+      "name": "admin1",
+      "password": "12345678"
+    },
+    {
+      "id": "2",
+      "name": "admin2",
+      "password": "12345679"
+    },
+    {
+      "id": "3",
+      "name": "admin3",
+      "password": "123456"
+    }
+  ],
+  "booking": [
+    {
+      "user_id": "1000",
+      "booking_id": 123456,
+      "name": "Lê Thị Thuỳ Trang",
+      "email": "thitrang@gmail.com",
+      "number": "0987564322",
+      "room": 2,
+      "check_in": "23/02/2022",
+      "check_out": "14/3/2022",
+      "adults": 2,
+      "child": 2
+    },
+    {
+      "user_id": "1001",
+      "booking_id": 123467,
+      "name": "Nguyen Thi Hue",
+      "email": "hue@gmail.com",
+      "number": "0986332445",
+      "room": 1,
+      "check_in": "23/04/2022",
+      "check_out": "26/04/2022",
+      "adults": 2,
+      "child": 0
+    },
+    {
+      "user_id": "1002",
+      "booking_id": 123678,
+      "name": "Nguyen Van A",
+      "email": "nguyenvana@gmail.com",
+      "number": "0987567445",
+      "room": 5,
+      "check_in": "23/12/2021",
+      "check_out": "26/7/2022",
+      "adults": 10,
+      "child": 2
+    },
+    {
+      "user_id": "1003",
+      "booking_id": 123459,
+      "name": "lê Thị B",
+      "email": "lethib@gmail.com",
+      "number": "0983445667",
+      "room": 2,
+      "check_in": "23/09/2022",
+      "check_out": "25/09/2022",
+      "adults": 7,
+      "child": 2
+    },
+    {
+      "user_id": "1004",
+      "booking_id": 123676,
+      "name": "Nguyễn Thị Kim Chi",
+      "email": "chivp@gamil.com",
+      "number": "0934223667",
+      "room": 1,
+      "check_in": "24/06/2022",
+      "check_out": "03/07/2022",
+      "adults": 1,
+      "child": 0
+    }
+  ],
+  "messages": []
+}
