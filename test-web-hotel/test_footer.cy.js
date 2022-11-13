@@ -1,13 +1,11 @@
-describe('My Link Test', () => {
+describe('My Path Test', () => {
     beforeEach(() => {
       cy.visit('http://localhost/hotel/project/index.php')
     })
     
-    it('test 1', ()=>
-    {
-    cy.get('.footer').contains("home").click()
-    cy.url().should('eq', 'http://localhost/hotel/project/index.php#home')
-    
+    it('test 1', ()=>{
+        cy.get('.footer').contains("home").click()
+        cy.url().should('eq', 'http://localhost/hotel/project/index.php#home')
     })
     it('test 2', () =>
     {
@@ -39,5 +37,4 @@ describe('My Link Test', () => {
     {
         cy.get('.footer').contains("my bookings").click()
     })
-   
 })
